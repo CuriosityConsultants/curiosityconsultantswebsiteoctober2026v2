@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Curiosity Consultants">
+<meta property="og:title" content="Services & Pricing | Curiosity Consultants">
+<meta property="og:description" content="Curiosity Consultants services and pricing: Strategy, Brand & Marketing and Operations consulting for South African SMEs.">
+<meta property="og:image" content="https://curiosityconsultants.co.za/og-image.png">
+<meta property="og:url" content="https://curiosityconsultants.co.za/services.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Services & Pricing | Curiosity Consultants">
+<meta name="twitter:description" content="Curiosity Consultants services and pricing: Strategy, Brand & Marketing and Operations consulting for South African SMEs.">
+<meta name="twitter:image" content="https://curiosityconsultants.co.za/og-image.png">
+<title>Services &amp; Pricing | Curiosity Consultants</title>
+<meta name="description" content="Curiosity Consultants services and pricing: Strategy, Brand & Marketing and Operations consulting for South African SMEs, with tiered packages and monthly retainers.">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0F0B1E;--p9:#2E1259;--p:#7C3AED;--p8:#4C1D8C;--b:#3E6FE0;--red:#E23B5C;--tx:#F4F1FB;--mu:#B9B2D3;--card:rgba(255,255,255,.06);--cardh:rgba(255,255,255,.10);--line:rgba(255,255,255,.14);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+*{box-sizing:border-box;margin:0}
+body{background:var(--ink);color:var(--tx);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif;line-height:1.1}
+.g{background:linear-gradient(100deg,#B7A2FF,var(--p),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:500 12px 'IBM Plex Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:#C6B4FF}
+.eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:linear-gradient(135deg,var(--p),var(--b))}
+.wrap{max-width:1180px;margin:0 auto;padding:0 32px}
+/* NAV */
+nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:16px 32px;background:rgba(15,11,30,.78);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding-top:calc(16px + env(safe-area-inset-top,0px))}
+.brand{display:flex;align-items:center;gap:10px}
+.brand span{font:600 16px 'Space Grotesk',sans-serif}
+.brand small{display:block;font:500 9px 'IBM Plex Mono',monospace;letter-spacing:.14em;color:var(--mu)}
+.links{display:flex;gap:30px}
+.links a{font:500 14px Inter;color:var(--mu);transition:color .15s}
+.links a:hover,.links a[aria-current]{color:#fff}
+.cta{padding:10px 20px;border-radius:99px;background:linear-gradient(100deg,var(--p),var(--b));color:#fff;font:600 13.5px Inter;box-shadow:0 4px 16px rgba(124,58,237,.35)}
+@media(max-width:820px){.links{display:none}}
+/* HERO */
+.hero{position:relative;padding:96px 32px 64px;overflow:hidden;background:radial-gradient(120% 70% at 80% -10%,var(--p9),var(--ink) 60%)}
+.hero-in{max-width:760px;margin:0 auto;text-align:left}
+.hero h1{font-size:clamp(36px,6vw,64px);letter-spacing:-1.5px;margin:20px 0}
+.hero p{color:var(--mu);max-width:560px;font-size:17.5px;margin-bottom:30px}
+.acts{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:26px}
+.btn{padding:14px 28px;border-radius:99px;font:600 14.5px Inter}
+.btn.pri{background:linear-gradient(100deg,var(--p),var(--b));color:#fff;box-shadow:0 6px 22px rgba(124,58,237,.35)}
+.btn.gh{background:var(--card);border:1px solid var(--line);color:var(--tx)}
+.tag{font:500 12px 'IBM Plex Mono',monospace;letter-spacing:.08em;color:var(--mu)}
+/* STRIP */
+.strip{display:flex;flex-wrap:wrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(255,255,255,.03)}
+.strip div{display:flex;align-items:center;gap:9px;padding:15px 26px;font:500 12px 'IBM Plex Mono',monospace;color:var(--mu);border-right:1px solid var(--line)}
+.strip div:last-child{border-right:none}
+.dot{width:6px;height:6px;border-radius:50%;background:linear-gradient(135deg,var(--p),var(--b))}
+.strip div:nth-child(3n) .dot{background:var(--red)}
+/* SECTIONS */
+section{padding:80px 32px}
+.section-h{font-size:clamp(28px,3.6vw,42px);letter-spacing:-1px;margin-bottom:16px}
+.section-sub{color:var(--mu);max-width:580px;margin-bottom:44px;font-size:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1180px;margin:0 auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px 24px;transition:.2s}
+.card:hover{background:var(--cardh);border-color:var(--p)}
+.icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(124,58,237,.35),rgba(62,111,224,.35));margin-bottom:18px;font-size:20px}
+.card h3{font-size:18px;margin-bottom:8px}
+.card p{color:var(--mu);font-size:14.5px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:18px;overflow:hidden;background:rgba(255,255,255,.03);max-width:1180px;margin:0 auto}
+.stat{padding:32px 24px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:none}
+.stat b{font:700 36px 'Space Grotesk',sans-serif;background:linear-gradient(100deg,#B7A2FF,var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{display:block;color:var(--mu);font-size:13px;margin-top:6px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;max-width:1180px;margin:0 auto}
+.num{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--p),var(--b));display:flex;align-items:center;justify-content:center;font:500 13px 'IBM Plex Mono',monospace;margin-bottom:16px}
+.steps h3{font-size:16px;margin-bottom:8px}
+.steps p{color:var(--mu);font-size:14px}
+.diy{max-width:1180px;margin:0 auto;position:relative;overflow:hidden;border-radius:26px;padding:56px;background:linear-gradient(150deg,var(--p9),#3B1B72 60%,var(--b) 140%);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:99px;background:rgba(255,255,255,.14);font:500 11px 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;margin-bottom:18px}
+.diy h3{font-size:clamp(24px,3vw,32px);max-width:480px;margin-bottom:14px}
+.diy p{color:rgba(255,255,255,.8);max-width:440px;font-size:14.5px}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1180px;margin:0 auto}
+.q{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 22px}
+.q .bar{width:28px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--p),var(--b));margin-bottom:16px}
+.q p{font-size:14.5px;color:var(--tx);margin-bottom:18px}
+.q b{font:600 13.5px 'Space Grotesk',sans-serif;display:block}
+.q small{color:var(--mu);font-size:12px}
+.cta-sec{text-align:center;padding:100px 32px;background:radial-gradient(60% 60% at 50% 0%,rgba(124,58,237,.25),transparent 70%)}
+.cta-sec h2{font-size:clamp(28px,4vw,44px);letter-spacing:-1px;max-width:700px;margin:0 auto 16px}
+.cta-sec p{color:var(--mu);margin-bottom:30px}
+footer{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;padding:32px;border-top:1px solid var(--line)}
+.footer-copy{color:var(--mu);font-size:12.5px}
+.footer-tag{font:500 12px 'IBM Plex Mono',monospace;color:var(--mu)}
+@media(max-width:980px){.grid3,.stats,.steps,.quotes{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:none}}
+@media(max-width:640px){.grid3,.stats,.steps,.quotes{grid-template-columns:1fr}.stat{border-right:none;border-bottom:1px solid var(--line)}}
+</style>
+<style>
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1180px;margin:0 auto 12px}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px 22px;display:flex;flex-direction:column;gap:8px}
+.pcard.hot{border-color:var(--p);box-shadow:0 0 0 1px var(--p)}
+.ptag{align-self:flex-start;font:500 11px 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;background:var(--red);padding:3px 10px;border-radius:99px}
+.plabel{font:500 12px 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--mu)}
+.pprice{font:700 26px 'Space Grotesk',sans-serif}
+.pprice small{font:400 13px Inter;color:var(--mu)}
+.pcard h4{font-size:18px}
+.pcard ul{padding-left:18px;color:var(--tx);font-size:14px;margin:4px 0 0}
+.pcard li{margin:3px 0}
+.pillar-block{max-width:1180px;margin:0 auto 64px}
+.note{color:var(--mu);font-size:13px;max-width:1180px;margin:8px auto 0}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="brand" href="index.html">
+    <svg width="26" height="36" viewBox="0 0 32 46"><defs><linearGradient id="ng1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#3E6FE0"/></linearGradient></defs>
+    <path d="M4 16 Q4 3 16 3 Q28 3 28 14 Q28 24 16 28 L16 34" stroke="url(#ng1)" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M7 16 Q7 7 16 7 Q25 7 25 14 Q25 23 16 27 L16 33" stroke="#0F0B1E" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <ellipse cx="16" cy="42" rx="5" ry="4.5" fill="#E23B5C"/></svg>
+    <span>Curiosity<small>CONSULTANTS</small></span>
+  </a>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="services.html" aria-current="page">Services</a>
+    <a href="how-we-work.html">How we work</a>
+    <a href="index.html#diy-program">DIY program <small style="opacity:.6">(soon)</small></a>
+    <a href="about.html">About us</a>
+  </div>
+  <a class="cta" href="contact.html">Start a conversation</a>
+</nav>
+
+<section class="hero" style="padding-bottom:40px">
+  <div class="hero-in">
+    <span class="eyebrow">Services &amp; pricing</span>
+    <h1>Clear packages.<br>No <span class="g">guesswork.</span></h1>
+    <p>Strategy, brand and operations support for growing South African businesses — as a fixed-scope project or an ongoing retainer.</p>
+  </div>
+</section>
+
+<section style="padding-top:20px">
+  <div class="wrap">
+    <span class="eyebrow">Pillar 1</span>
+    <h2 class="section-h">Strategy</h2>
+  </div>
+  <div class="pgrid pillar-block">
+    <div class="pcard"><span class="plabel">Starter</span><h4>Clarity Session</h4><div class="pprice">R6,500</div>
+    <ul><li>2 × 90-minute sessions</li><li>Goals, strengths and priorities mapped</li><li>One-page action plan</li></ul></div>
+    <div class="pcard hot"><span class="ptag">Most popular</span><span class="plabel">Growth</span><h4>Strategy Sprint</h4><div class="pprice">R18,500</div>
+    <ul><li>4-week engagement</li><li>Market and competitor review</li><li>12-month roadmap and KPIs</li><li>2 progress check-ins</li></ul></div>
+    <div class="pcard"><span class="plabel">Premium</span><h4>Strategy Partner</h4><div class="pprice">R38,000</div>
+    <ul><li>8-week engagement</li><li>Full strategic plan and OKRs</li><li>Leadership team workshop</li><li>30 days of post-delivery support</li></ul></div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow">Pillar 2</span>
+    <h2 class="section-h">Brand &amp; Marketing</h2>
+  </div>
+  <div class="pgrid pillar-block">
+    <div class="pcard"><span class="plabel">Starter</span><h4>Brand Foundations</h4><div class="pprice">R8,500</div>
+    <ul><li>Positioning and audience definition</li><li>Brand voice and key messages</li><li>Simple brand guidelines</li></ul></div>
+    <div class="pcard hot"><span class="ptag">Most popular</span><span class="plabel">Growth</span><h4>Brand &amp; Content Engine</h4><div class="pprice">R22,000</div>
+    <ul><li>Everything in Starter</li><li>Visual direction brief</li><li>90-day content plan</li><li>Channel setup and SEO basics</li></ul></div>
+    <div class="pcard"><span class="plabel">Premium</span><h4>Full Brand Launch</h4><div class="pprice">R45,000</div>
+    <ul><li>Complete brand system</li><li>Go-to-market and launch plan</li><li>Website copy direction</li><li>Partnership and influencer strategy</li></ul></div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow">Pillar 3</span>
+    <h2 class="section-h">Operations</h2>
+  </div>
+  <div class="pgrid pillar-block">
+    <div class="pcard"><span class="plabel">Starter</span><h4>Process Health Check</h4><div class="pprice">R7,500</div>
+    <ul><li>Review of one key workflow</li><li>Bottleneck report</li><li>Quick wins list</li></ul></div>
+    <div class="pcard hot"><span class="ptag">Most popular</span><span class="plabel">Growth</span><h4>Ops Streamline</h4><div class="pprice">R20,000</div>
+    <ul><li>3 to 5 workflows mapped</li><li>Documented SOPs</li><li>Tool stack review</li><li>KPI dashboard specification</li></ul></div>
+    <div class="pcard"><span class="plabel">Premium</span><h4>Ops Overhaul</h4><div class="pprice">R42,000</div>
+    <ul><li>End-to-end operations redesign</li><li>Automation and AI opportunities</li><li>Team training</li><li>60 days of implementation support</li></ul></div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow">Ongoing support</span>
+    <h2 class="section-h">Monthly retainers</h2>
+  </div>
+  <div class="pgrid pillar-block">
+    <div class="pcard"><span class="plabel">Advisory</span><div class="pprice">R6,000<small> / month</small></div>
+    <ul><li>4 hours of consulting</li><li>One monthly strategy call</li><li>Email support between calls</li></ul></div>
+    <div class="pcard hot"><span class="ptag">Best value</span><span class="plabel">Growth</span><div class="pprice">R14,000<small> / month</small></div>
+    <ul><li>12 hours across any pillar</li><li>Weekly check-in</li><li>Review of content, plans and processes</li></ul></div>
+    <div class="pcard"><span class="plabel">Embedded</span><div class="pprice">R28,000<small> / month</small></div>
+    <ul><li>25 hours across all three pillars</li><li>Priority response</li><li>Monthly progress report</li></ul></div>
+  </div>
+  <p class="note">Retainers run month to month after an initial 3-month term. Unused hours do not roll over.</p>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Next steps</span>
+    <h2 class="section-h">Let's start with <span class="g">a question.</span></h2>
+  </div>
+  <div class="grid3">
+    <div class="card"><h3>1. Discovery call</h3><p>A free 30-minute chat about your goals and challenges.</p></div>
+    <div class="card"><h3>2. Proposal</h3><p>A clear scope, timeline and fixed price within 3 working days.</p></div>
+    <div class="card"><h3>3. Kick-off</h3><p>50% deposit secures your start date. Balance on delivery.</p></div>
+  </div>
+  <p class="note" style="text-align:center;margin-top:24px">All prices are in South African Rand (ZAR) and exclude VAT. Custom packages available on request.</p>
+</section>
+
+<section class="cta-sec">
+  <h2>Ready to get <span class="g">started?</span></h2>
+  <p>Book a no-obligation discovery call and we'll recommend the right package for you.</p>
+  <a class="btn pri" href="mailto:hello@curiosityconsultants.co.za">Book a discovery call</a>
+</section>
+<footer>
+  <div class="brand"><svg width="20" height="28" viewBox="0 0 32 46"><path d="M4 16 Q4 3 16 3 Q28 3 28 14 Q28 24 16 28 L16 34" stroke="#7C3AED" stroke-width="7" stroke-linecap="round" fill="none"/><ellipse cx="16" cy="42" rx="5" ry="4.5" fill="#E23B5C"/></svg>
+  <div class="footer-copy">Curiosity Consultants · Cape Town · Global · <a href="mailto:hello@curiosityconsultants.co.za">hello@curiosityconsultants.co.za</a></div></div>
+  <div class="footer-tag">THE ANSWER STARTS WITH A QUESTION.</div>
+</footer>
+</body>
+</html>
